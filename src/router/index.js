@@ -4,6 +4,10 @@ import Router from 'vue-router'
 import Directive from '@/components/Directive'
 import ShengMingZhouQi from '@/components/shengMingZhouQi'
 import HelloWorld from '@/components/HelloWorld'
+import JiaoCai103 from '@/components/JiaoCai103'
+import JiaoCai106 from '@/components/JiaoCai106'
+import JiaoCai108 from '@/components/JiaoCai108'
+import HW109 from '@/components/HW109'
 import Lianxi from '@/components/lianxi'
 import Lianxi2 from '@/components/lianxi2'
 import Tiaojian from '@/components/tiaojian'
@@ -31,6 +35,30 @@ export default new Router({
       path: '/HelloWorld',
       name: 'HelloWorld',
       component: HelloWorld
+    }
+    ,
+    {
+      path: '/JiaoCai103',
+      name: 'JiaoCai103',
+      component: JiaoCai103
+    }
+    ,
+    {
+      path: '/JiaoCai106',
+      name: 'JiaoCai106',
+      component: JiaoCai106
+    }
+    ,
+    {
+      path: '/JiaoCai108',
+      name: 'JiaoCai108',
+      component: JiaoCai108
+    }
+    ,
+    {
+      path: '/HW109',
+      name: 'HW109',
+      component: HW109
     }
     ,
     {
