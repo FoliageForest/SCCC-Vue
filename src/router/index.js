@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Directive from '@/components/Directive'
+import FuZuJian from '@/components/FuZuJian'
 import ShengMingZhouQi from '@/components/shengMingZhouQi'
 import HelloWorld from '@/components/HelloWorld'
 import JiaoCai103 from '@/components/JiaoCai103'
@@ -23,6 +24,12 @@ export default new Router({
       path: '/Directive',
       name: 'Directive',
       component: Directive
+    }
+    ,
+    {
+      path: '/fuZuJian',
+      name: 'FuZuJian',
+      component: FuZuJian
     }
     ,
     {
