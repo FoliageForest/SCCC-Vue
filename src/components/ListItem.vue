@@ -1,6 +1,6 @@
 <template>
     <div class="list">
-        <p>{{ message }}</p>
+        <p>{{ msgName }}</p>
     </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
     data() {
         return {};
     },
-    props: ['message']
+    props: ['msgName'],
 };
 </script>
 
