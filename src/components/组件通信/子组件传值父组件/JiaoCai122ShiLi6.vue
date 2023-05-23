@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import JiaoCai122ShiLi7 from "@/components/JiaoCai122ShiLi7.vue";
+import JiaoCai122ShiLi7 from "./JiaoCai122ShiLi7.vue";
 
 export default {
     data() {

@@ -10,13 +10,13 @@ import JiaoCai106 from '@/components/JiaoCai106'
 import JiaoCai108 from '@/components/JiaoCai108'
 import JiaoCai119 from '@/components/JiaoCai119'
 import JiaoCai120 from '@/components/JiaoCai120'
-import JiaoCai122ShiLi6 from '@/components/JiaoCai122ShiLi6'
-import JiaoCai122ShiLi7 from '@/components/JiaoCai122ShiLi7'
+import JiaoCai122ShiLi6 from '@/components/组件通信/子组件传值父组件/JiaoCai122ShiLi6'
+import JiaoCai122ShiLi7 from '@/components/组件通信/子组件传值父组件/JiaoCai122ShiLi7'
 import JiaoCai123ShiLi8 from '@/components/组件通信/兄弟组件通信的处理方式/JiaoCai123ShiLi8'
 import JiaoCai124SL9 from '@/components/组件通信/兄弟组件通信的处理方式/JiaoCai124SL9'
 import JiaoCai125SL10 from '@/components/组件通信/兄弟组件通信的处理方式/JiaoCai125SL10'
-import HW20230523FuZuJian from '@/components/HW20230523FuZuJian'
-import HW20230523ZiZuJian from '@/components/HW20230523ZiZuJian'
+import HW20230523FuZuJian from '@/components/组件通信/HW20230523FuZuJian'
+import HW20230523ZiZuJian from '@/components/组件通信/HW20230523ZiZuJian'
 import HW109 from '@/components/HW109'
 import Lianxi from '@/components/lianxi'
 import Lianxi2 from '@/components/lianxi2'
@@ -84,13 +84,13 @@ export default new Router({
     }
     ,
     {
-      path: '/JiaoCai122ShiLi6',
+      path: '/sccc/2023-05-23/JiaoCai122ShiLi6',
       name: 'JiaoCai122ShiLi6',
       component: JiaoCai122ShiLi6
     }
     ,
     {
-      path: '/JiaoCai122ShiLi7',
+      path: '/sccc/2023-05-23/JiaoCai122ShiLi7',
       name: 'JiaoCai122ShiLi7',
       component: JiaoCai122ShiLi7
     }
@@ -114,13 +114,13 @@ export default new Router({
     }
     ,
     {
-      path: '/HW20230523FuZuJian',
+      path: '/sccc/2023-05-23/HW20230523FuZuJian',
       name: 'HW20230523FuZuJian',
       component: HW20230523FuZuJian
     }
     ,
     {
-      path: '/HW20230523ZiZuJian',
+      path: '/sccc/2023-05-23/HW20230523ZiZuJian',
       name: 'HW20230523ZiZuJian',
       component: HW20230523ZiZuJian
     }
