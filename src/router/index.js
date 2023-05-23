@@ -12,9 +12,9 @@ import JiaoCai119 from '@/components/JiaoCai119'
 import JiaoCai120 from '@/components/JiaoCai120'
 import JiaoCai122ShiLi6 from '@/components/JiaoCai122ShiLi6'
 import JiaoCai122ShiLi7 from '@/components/JiaoCai122ShiLi7'
-import JiaoCai123ShiLi8 from '@/components/JiaoCai123ShiLi8'
-import JiaoCai124SL9 from '@/components/JiaoCai124SL9'
-import JiaoCai125SL10 from '@/components/JiaoCai125SL10'
+import JiaoCai123ShiLi8 from '@/components/组件通信/兄弟组件通信的处理方式/JiaoCai123ShiLi8'
+import JiaoCai124SL9 from '@/components/组件通信/兄弟组件通信的处理方式/JiaoCai124SL9'
+import JiaoCai125SL10 from '@/components/组件通信/兄弟组件通信的处理方式/JiaoCai125SL10'
 import HW20230523FuZuJian from '@/components/HW20230523FuZuJian'
 import HW20230523ZiZuJian from '@/components/HW20230523ZiZuJian'
 import HW109 from '@/components/HW109'
@@ -96,19 +96,19 @@ export default new Router({
     }
     ,
     {
-      path: '/JiaoCai123ShiLi8',
+      path: '/sccc/2023-05-23/JiaoCai123ShiLi8',
       name: 'JiaoCai123ShiLi8',
       component: JiaoCai123ShiLi8
     }
     ,
     {
-      path: '/JiaoCai124SL9',
+      path: '/sccc/2023-05-23/JiaoCai124SL9',
       name: 'JiaoCai124SL9',
       component: JiaoCai124SL9
     }
     ,
     {
-      path: '/JiaoCai125SL10',
+      path: '/sccc/2023-05-23/JiaoCai125SL10',
       name: 'JiaoCai125SL10',
       component: JiaoCai125SL10
     }
