@@ -17,6 +17,9 @@ import JiaoCai124SL9 from '@/components/组件通信/兄弟组件通信的处理
 import JiaoCai125SL10 from '@/components/组件通信/兄弟组件通信的处理方式/JiaoCai125SL10'
 import HW20230523FuZuJian from '@/components/组件通信/HW20230523FuZuJian'
 import HW20230523ZiZuJian from '@/components/组件通信/HW20230523ZiZuJian'
+import HW20230523T02Fu from '@/components/组件通信/HW20230523T02Fu'
+import HW20230523T02Zi1 from '@/components/组件通信/HW20230523T02Zi1'
+import HW20230523T02Zi2 from '@/components/组件通信/HW20230523T02Zi2'
 import HW109 from '@/components/HW109'
 import Lianxi from '@/components/lianxi'
 import Lianxi2 from '@/components/lianxi2'
@@ -123,6 +126,24 @@ export default new Router({
       path: '/sccc/2023-05-23/HW20230523ZiZuJian',
       name: 'HW20230523ZiZuJian',
       component: HW20230523ZiZuJian
+    }
+    ,
+    {
+      path: '/sccc/2023-05-23/HW20230523T02Fu',
+      name: 'HW20230523T02Fu',
+      component: HW20230523T02Fu
+    }
+    ,
+    {
+      path: '/sccc/2023-05-23/HW20230523T02Zi1',
+      name: 'HW20230523T02Zi1',
+      component: HW20230523T02Zi1
+    }
+    ,
+    {
+      path: '/sccc/2023-05-23/HW20230523T02Zi2',
+      name: 'HW20230523T02Zi2',
+      component: HW20230523T02Zi2
     }
     ,
     {
