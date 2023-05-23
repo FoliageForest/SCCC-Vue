@@ -8,6 +8,15 @@ import HelloWorld from '@/components/HelloWorld'
 import JiaoCai103 from '@/components/JiaoCai103'
 import JiaoCai106 from '@/components/JiaoCai106'
 import JiaoCai108 from '@/components/JiaoCai108'
+import JiaoCai119 from '@/components/JiaoCai119'
+import JiaoCai120 from '@/components/JiaoCai120'
+import JiaoCai122ShiLi6 from '@/components/JiaoCai122ShiLi6'
+import JiaoCai122ShiLi7 from '@/components/JiaoCai122ShiLi7'
+import JiaoCai123ShiLi8 from '@/components/JiaoCai123ShiLi8'
+import JiaoCai124SL9 from '@/components/JiaoCai124SL9'
+import JiaoCai125SL10 from '@/components/JiaoCai125SL10'
+import HW20230523FuZuJian from '@/components/HW20230523FuZuJian'
+import HW20230523ZiZuJian from '@/components/HW20230523ZiZuJian'
 import HW109 from '@/components/HW109'
 import Lianxi from '@/components/lianxi'
 import Lianxi2 from '@/components/lianxi2'
@@ -60,6 +69,60 @@ export default new Router({
       path: '/JiaoCai108',
       name: 'JiaoCai108',
       component: JiaoCai108
+    }
+    ,
+    {
+      path: '/JiaoCai119',
+      name: 'JiaoCai119',
+      component: JiaoCai119
+    }
+    ,
+    {
+      path: '/JiaoCai120',
+      name: 'JiaoCai120',
+      component: JiaoCai120
+    }
+    ,
+    {
+      path: '/JiaoCai122ShiLi6',
+      name: 'JiaoCai122ShiLi6',
+      component: JiaoCai122ShiLi6
+    }
+    ,
+    {
+      path: '/JiaoCai122ShiLi7',
+      name: 'JiaoCai122ShiLi7',
+      component: JiaoCai122ShiLi7
+    }
+    ,
+    {
+      path: '/JiaoCai123ShiLi8',
+      name: 'JiaoCai123ShiLi8',
+      component: JiaoCai123ShiLi8
+    }
+    ,
+    {
+      path: '/JiaoCai124SL9',
+      name: 'JiaoCai124SL9',
+      component: JiaoCai124SL9
+    }
+    ,
+    {
+      path: '/JiaoCai125SL10',
+      name: 'JiaoCai125SL10',
+      component: JiaoCai125SL10
+    }
+    ,
+    {
+      path: '/HW20230523FuZuJian',
+      name: 'HW20230523FuZuJian',
+      component: HW20230523FuZuJian
+    }
+    ,
+    {
+      path: '/HW20230523ZiZuJian',
+      name: 'HW20230523ZiZuJian',
+      component: HW20230523ZiZuJian
     }
     ,
     {
