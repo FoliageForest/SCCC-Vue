@@ -1,6 +1,7 @@
 <template>
-    <!-- 教材 P120 示例 -->
+    <!-- 教材 P120 示例 5 -->
     <div class="list">
+        <h1>子组件</h1>
         <ul>
             <li @click="handleClick()">这是第一条数据</li>
         </ul>

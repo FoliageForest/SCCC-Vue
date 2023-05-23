@@ -3,8 +3,8 @@
         <!-- 成功运行 -->
         <h1>父组件</h1>
         <p>{{ num }}</p>
-        <HW20230523T02Zi1 :aa="num" @change="getVa"></HW20230523T02Zi1>
-        <HW20230523T02Zi2 :bb="num" @change="getVa"></HW20230523T02Zi2>
+        <HW20230523T02Zi1 :aa="num" @changeA="getValA"></HW20230523T02Zi1>
+        <HW20230523T02Zi2 :bb="num" @changeB="getValB"></HW20230523T02Zi2>
     </div>
 </template>
 
@@ -24,8 +24,12 @@ export default {
         HW20230523T02Zi2,
     },
     methods: {
-        getVa: function(val) {
-            this.num = val;
+        getValA: function(valA) {
+            this.num = valA;
+        }
+        ,
+        getValB: function(valB) {
+            this.num = valB;
         }
     }
 };

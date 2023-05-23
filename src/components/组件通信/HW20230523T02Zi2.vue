@@ -17,7 +17,7 @@ export default {
     methods: {
         fn: function () {
             this.bb--;
-            this.$emit("change", this.bb);
+            this.$emit("changeB", this.bb);
         }
     }
 };

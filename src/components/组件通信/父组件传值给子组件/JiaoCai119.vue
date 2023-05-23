@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import JiaoCai120 from "@/components/JiaoCai120.vue";
+import JiaoCai120 from "./JiaoCai120.vue";
 
 export default {
     data() {

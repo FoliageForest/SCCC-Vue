@@ -17,7 +17,7 @@ export default {
     methods: {
         fn: function () {
             this.aa++;
-            this.$emit("change", this.aa);
+            this.$emit("changeA", this.aa);
         }
     }
 };
