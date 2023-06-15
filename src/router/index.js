@@ -32,6 +32,7 @@ import JiaoCai134 from '@/components/计算属性/JiaoCai134'
 import JiaoCai136ShiLi4 from '@/components/计算属性/JiaoCai136ShiLi4'
 import JiaoCai136ShiLi5 from '@/components/计算属性/JiaoCai136ShiLi5'
 import JiaoCai139 from '@/components/侦听器/JiaoCai139'
+import HW20230615Home from '@/components/HW20230615Home'
 
 Vue.use(Router)
 
@@ -221,6 +222,12 @@ export default new Router({
       path: '/sccc/2023-06-15/JiaoCai139',
       name: 'JiaoCai139',
       component: JiaoCai139
+    }
+    ,
+    {
+      path: '/sccc/2023-06-15/HW20230615Home',
+      name: 'HW20230615Home',
+      component: HW20230615Home
     }
   ]
 })
