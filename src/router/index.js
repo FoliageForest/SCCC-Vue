@@ -27,6 +27,11 @@ import Tiaojian from '@/components/tiaojian'
 import New from '@/pages/new.vue'
 import Bt from '@/pages/bt'
 import Att from '@/pages/att'
+import JiaoCai133 from '@/components/计算属性/JiaoCai133'
+import JiaoCai134 from '@/components/计算属性/JiaoCai134'
+import JiaoCai136ShiLi4 from '@/components/计算属性/JiaoCai136ShiLi4'
+import JiaoCai136ShiLi5 from '@/components/计算属性/JiaoCai136ShiLi5'
+import JiaoCai139 from '@/components/侦听器/JiaoCai139'
 
 Vue.use(Router)
 
@@ -185,7 +190,37 @@ export default new Router({
     {
       path: '/bt',
       name: 'Bt',
-      component:Bt
+      component: Bt
+    }
+    ,
+    {
+      path: '/sccc/2023-06-15/JiaoCai133',
+      name: 'JiaoCai133',
+      component: JiaoCai133
+    }
+    ,
+    {
+      path: '/sccc/2023-06-15/JiaoCai134',
+      name: 'JiaoCai134',
+      component: JiaoCai134
+    }
+    ,
+    {
+      path: '/sccc/2023-06-15/JiaoCai136ShiLi4',
+      name: 'JiaoCai136ShiLi4',
+      component: JiaoCai136ShiLi4
+    }
+    ,
+    {
+      path: '/sccc/2023-06-15/JiaoCai136ShiLi5',
+      name: 'JiaoCai136ShiLi5',
+      component: JiaoCai136ShiLi5
+    }
+    ,
+    {
+      path: '/sccc/2023-06-15/JiaoCai139',
+      name: 'JiaoCai139',
+      component: JiaoCai139
     }
   ]
 })
