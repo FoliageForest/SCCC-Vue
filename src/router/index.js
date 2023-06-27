@@ -35,6 +35,8 @@ import JiaoCai139 from '@/components/侦听器/JiaoCai139'
 import HW20230615Home from '@/components/HW20230615Home'
 import sccc_qimo_v_on from '@/components/SCCC-期末/sccc_qimo_v_on'
 import sccc_qimo_v_for from '@/components/SCCC-期末/sccc_qimo_v_for'
+import sccc_qimo_zichuanfu from '@/components/SCCC-期末/sccc_qimo_zichuanfu'
+import sccc_qimo_ageMap from '@/components/SCCC-期末/sccc_qimo_ageMap'
 
 Vue.use(Router)
 
@@ -242,6 +244,18 @@ export default new Router({
       path: '/sccc/qimo/v-for',
       name: 'sccc_qimo_v_for',
       component: sccc_qimo_v_for
+    }
+    ,
+    {
+      path: '/sccc/qimo/zichuanfu',
+      name: 'sccc_qimo_zichuanfu',
+      component: sccc_qimo_zichuanfu
+    }
+    ,
+    {
+      path: '/sccc/qimo/ageMap',
+      name: 'sccc_qimo_ageMap',
+      component: sccc_qimo_ageMap
     }
   ]
 })
