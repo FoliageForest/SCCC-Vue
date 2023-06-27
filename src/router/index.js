@@ -37,6 +37,7 @@ import sccc_qimo_v_on from '@/components/SCCC-期末/sccc_qimo_v_on'
 import sccc_qimo_v_for from '@/components/SCCC-期末/sccc_qimo_v_for'
 import sccc_qimo_zichuanfu from '@/components/SCCC-期末/sccc_qimo_zichuanfu'
 import sccc_qimo_ageMap from '@/components/SCCC-期末/sccc_qimo_ageMap'
+import sccc_qimo_yangshi from '@/components/SCCC-期末/sccc_qimo_yangshi'
 
 Vue.use(Router)
 
@@ -256,6 +257,12 @@ export default new Router({
       path: '/sccc/qimo/ageMap',
       name: 'sccc_qimo_ageMap',
       component: sccc_qimo_ageMap
+    }
+    ,
+    {
+      path: '/sccc/qimo/yangshi',
+      name: 'sccc_qimo_yangshi',
+      component: sccc_qimo_yangshi
     }
   ]
 })
