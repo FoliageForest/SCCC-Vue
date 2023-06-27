@@ -33,6 +33,8 @@ import JiaoCai136ShiLi4 from '@/components/计算属性/JiaoCai136ShiLi4'
 import JiaoCai136ShiLi5 from '@/components/计算属性/JiaoCai136ShiLi5'
 import JiaoCai139 from '@/components/侦听器/JiaoCai139'
 import HW20230615Home from '@/components/HW20230615Home'
+import sccc_qimo_v_on from '@/components/SCCC-期末/sccc_qimo_v_on'
+import sccc_qimo_v_for from '@/components/SCCC-期末/sccc_qimo_v_for'
 
 Vue.use(Router)
 
@@ -228,6 +230,18 @@ export default new Router({
       path: '/sccc/2023-06-15/HW20230615Home',
       name: 'HW20230615Home',
       component: HW20230615Home
+    }
+    ,
+    {
+      path: '/sccc/qimo/v-on',
+      name: 'sccc_qimo_v_on',
+      component: sccc_qimo_v_on
+    }
+    ,
+    {
+      path: '/sccc/qimo/v-for',
+      name: 'sccc_qimo_v_for',
+      component: sccc_qimo_v_for
     }
   ]
 })
