@@ -1,36 +1,37 @@
 <template>
-  <!-- 未完成 -->
-  <div class="page">
-    <button v-on:click="fn">点击按钮</button>
+  <div>
+
   </div>
 </template>
-
 <script>
 export default {
   data() {
     return {
-      map: new Map([
-        ['学号', '2105011228'],
-        ['专业', 'jy'],
-        ['姓名', 'xr'],
-        ['成绩', 'nice'],
-      ])
+      studentMap: new Map()
     };
   },
-
+  mounted() {
+    this.initStudentMap();
+    this.checkAgeAndOutput();
+  },
   methods: {
-    fn: function () {
-      
+    initStudentMap() {
+      this.studentMap.set(1, { name: "张三", age: 18, major: "计算机科学", score: "优秀" });
+      this.studentMap.set(2, { name: "李四", age: 20, major: "数学", score: "良好" });
+      this.studentMap.set(3, { name: "王五", age: 19, major: "物理", score: "及格" });
+    },
+    checkAgeAndOutput() {
+      let ageToCheck = 19;
+
+      this.studentMap.forEach((student, id) => {
+        if (student.age == ageToCheck) {
+          console.log(`学号：${id}`);
+          console.log(`姓名：${student.name}`);
+          console.log(`专业：${student.major}`);
+          console.log(`成绩：${student.score}`);
+        }
+      });
     }
   }
-}
+};
 </script>
-
-<style scoped>
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: #9860f3a1;
-  margin: 10px auto;
-}
-</style>
