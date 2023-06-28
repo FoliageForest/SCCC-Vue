@@ -12,10 +12,10 @@ export default {
   data() {
     return {
       person: [
-        { name: 'xiaoming', banji: 'jy1' },
-        { name: 'xiaocheng', banji: 'jy2' },
-        { name: 'xiaoma', banji: 'jy1' },
-        { name: 'xiaozhang', banji: 'jy2' },
+        { name: '小明', banji: '计应1班' },
+        { name: '小马', banji: '计应1班' },
+        { name: '小张', banji: '计应2班' },
+        { name: '小成', banji: '计应2班' },
       ]
     }
   }
